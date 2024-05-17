@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  gap: 100px;
+  padding: 80px 160px 120px;
+}
+
+.section {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 100px;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 1050px;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  transform: perspective(1200px);
+  width: 1px;
+}
+
+.rightContainer {
+  display: grid;
+  gap: 48px;
+}
+
+.rightTop {
+  display: grid;
+  gap: 20px;
+  p {
+    color: #808080;
+  }
+}
+
+.rightBottom {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 16px 60px;
+}
+
+.elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  height: 68px;
+}
+
+.logo {
+  width: 48px;
+}
